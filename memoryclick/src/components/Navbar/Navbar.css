@@ -4,15 +4,16 @@
 }
 
 .itemLeft {
-  width: 15%;
+  width: 10%;
 }
 
 .itemCenter {
-	width: 70%;
+	width: 75%;
 }
 
 .itemRight {
   width: 15%;
+  
 }
 
 .navbar {
@@ -21,10 +22,10 @@
 }
 
 li {
-  color: white;
-  padding: 15px 0;
+  color: rgb(228, 255, 73);
+  padding: 5px 0;
 }
 
 body {
-  font-size: 24px;
+  font-size: 20px;
 }

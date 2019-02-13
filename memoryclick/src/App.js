@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import FriendCard from "./components/FriendCard";
+import FishCard from "./components/FishCard";
 import Footer from "./components/Footer";
 import fish from "./fish.json";
 import "./App.css";
@@ -58,7 +58,7 @@ class App extends Component {
     }
   };
 
-  //the order of components to be rendered: navbar, jumbotron, friendcard, footer
+  //the order of components to be rendered: navbar, jumbotron, Fishcard, footer
   render() {
     return (
       <div>
@@ -66,7 +66,7 @@ class App extends Component {
         <Jumbotron />
         <div className="wrapper">
           {this.state.fish.map(fish => (
-            <FriendCard
+            <FishCard
               imageClick={this.imageClick}
               id={fish.id}
               key={fish.id}
